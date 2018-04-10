@@ -1,0 +1,14 @@
+#include <client.h>
+
+#define BUF_SIZE 4096
+
+void fatal(char* string)
+{
+	printf("%s\n",string);
+	exit(1);
+}
+
+int main(int argc, char** argv)
+{
+	
+}
